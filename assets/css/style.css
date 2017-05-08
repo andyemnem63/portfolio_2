@@ -1,0 +1,181 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Abril Fatface', cursive;
+	font-family: 'Ubuntu', sans-serif;
+}
+	/*Navigation bar & Menu */
+.nav {
+	background-color: white;
+	height: 6em;
+	position:fixed;
+	top:0px;
+	width: 100%;
+}
+
+.navRow {
+	position: relative;
+	margin: 0 400px 0 300px;
+}
+
+.logo { 
+	float: left;
+	display: block;
+	margin: 30px 0 30px 0px;
+ }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navLinks li {
+    float: right;
+}
+
+.navLinks li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    line-height: 65px;
+}
+
+.navLinks li a:hover {
+    color: #a0ce4e;
+	border-top: solid #a0ce4e;
+}
+
+	/*Header*/
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(44) 4s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 15em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/*Darker header background image */
+.header {
+	height: 50em;
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(http://www.modernhdwallpaper.com/wp-content/uploads/2016/February/19/City/Morning/1440x900/city-in-the-morning,-modern-hd-wallpaper-1440x900.jpg);
+
+/*background-image: url(cinemagraph-gifs-11.gif);*/
+background-size: 100% auto;
+
+}
+
+.headWrapper {
+	top: 6em;
+	height: 500px;
+	width: 70em;
+	margin: 0 auto;
+	position: relative;
+    text-align: center;
+}
+
+.headerTxt {
+	margin: 0 auto;
+	position: relative;
+	top: 125px;
+	color: white;
+}
+.icons {
+	margin-top: 15%;
+}
+.icons li {
+	display: inline-block;
+	margin: 10px;
+}
+.icon{
+	height: 3em;
+}
+
+.headAbout {
+	position: relative;
+	color: white;
+	top:30%;
+	font-size: 25px;
+	-webkit-transition-delay: 10s; /* Safari */
+    transition-delay: 2s;
+}
+
+	/*Portfolio*/
+.portfolio {
+	background-color: #03216D;
+	height: 30em;
+}
+
+.featureProject {
+	width: 33.33%;
+	height: 50%;
+	float: right;
+}
+.pj1 {
+	background-color: blue;
+}
+.pj1 img {
+	height: 100%;
+	width: 100%;
+	overflow: hidden; 
+}
+.pj2 {
+	background-color: orange;
+}
+.pj2 img {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.pj3 {
+	background-color: green;
+}
+.pj4 {
+	background-color: #FC00FF;
+}
+.pj5 {
+	background-color: #34130D;
+}
+.pj6 {
+	background-color: #0E9DBC;
+}
+
+	/*About Me */
+.about {
+	background-color: white;
+	height: 30em;
+}
+
+.contact {
+	background-color: #9AD920;
+	height: 30em;
+}
+
