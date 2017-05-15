@@ -8,7 +8,7 @@
 	/*Navigation bar & Menu */
 .nav {
 	/*background-color: white;*/
-	border-bottom: thin solid white;
+	/*border-bottom: thin solid white;*/
 	height: 5em;
 	position:fixed;
 	top:0px;
@@ -23,7 +23,8 @@
 .logo { 
 	float: left;
 	display: block;
- }
+	margin-left: 10%;
+}
 
 ul {
     list-style-type: none;
@@ -33,7 +34,7 @@ ul {
 }
 
 .navContent {
-	margin-right: 7em;
+	margin-right: 15em;
 }
 
 .navLinks li {
@@ -47,11 +48,12 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
     line-height: 50px;
+    font-size: 20px;
 }
 
 .navLinks li a:hover {
-    color: orange;
-	border-top: solid orange;
+    color: gray;
+	border-top: solid gray;
 }
 
 	/*Header*/
@@ -62,7 +64,7 @@ ul {
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 
-@keyframes typewriter{
+/*@keyframes typewriter{
   from{width: 0;}
   to{width: 15em;}
 }
@@ -82,16 +84,15 @@ ul {
     overflow: hidden;
     transform: translateY(-50%);    
 }
-
+*/
 /*Darker header background image */
 .header {
 	margin-top: -20px;
-	height: 48em;
-    background: url('../images/benjamin-voros-250200.jpg');
-
-/*background-image: url(cinemagraph-gifs-11.gif);*/
-background-size: 100% auto;
-background-repeat: no-repeat;
+	height: 55em;
+    
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/bg3.jpg');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
 }
 
 .headWrapper {
